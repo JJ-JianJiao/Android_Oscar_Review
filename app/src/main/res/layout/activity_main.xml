@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="8dp"
+    android:paddingRight="10dp"
+    tools:context=".PostReviewActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/josefin_sans"
+        android:text="@string/post_review_title"
+        android:textSize="24sp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/reviewer_edit"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:fontFamily="@font/josefin_sans"-->
+<!--        android:hint="@string/enter_name"-->
+<!--        android:importantForAutofill="no"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:textSize="24sp" />-->
+
+    <TextView
+        android:id="@+id/category_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans"
+        android:text="@string/category_options"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/category_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/best_picture_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/josefin_sans"
+            android:text="@string/best_picture"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/best_actor_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/josefin_sans"
+            android:text="@string/best_actor"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/best_actress_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/josefin_sans"
+            android:text="@string/best_actress"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/film_editing_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/josefin_sans"
+            android:text="@string/film_editing"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/visual_effects_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/josefin_sans"
+            android:text="@string/visual_effects"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/nominee_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/josefin_sans"
+        android:hint="@string/nominee"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/review_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/josefin_sans"
+        android:gravity="start|top"
+        android:hint="@string/enter_review"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textSize="24sp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/password_edit"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:fontFamily="@font/josefin_sans"-->
+<!--        android:hint="@string/enter_password"-->
+<!--        android:importantForAutofill="no"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:textSize="24sp" />-->
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans"
+        android:text="@string/submit"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+<!--    <Button-->
+<!--        android:id="@+id/clear_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/josefin_sans"-->
+<!--        android:text="@string/clear_data"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="invisible" />-->
+
+</LinearLayout>

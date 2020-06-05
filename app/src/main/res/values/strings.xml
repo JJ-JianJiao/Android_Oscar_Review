@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Oscar_Reviews</string>
+    <string name="post_review_title">Post Oscar Review</string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="category_options">Category:</string>
+    <string name="best_picture">Best Picture</string>
+    <string name="best_actor">Best Actor</string>
+    <string name="best_actress">Best Actress</string>
+    <string name="film_editing">Film Editing</string>
+    <string name="visual_effects">Visual Effects</string>
+    <string name="nominee">Please enter the Nominee</string>
+    <string name="enter_review">Please enter your review.</string>
+    <string name="enter_password">Please enter the password</string>
+    <string name="submit">Submit</string>
+    <string name="clear_data">Clear</string>
+    <string name="view_review">View Review</string>
+    <string name="preferences">Preferences</string>
+    <string name="title_activity_preferences">Preferences</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="url_pref">URL</string>
+    <string name="login_name_pref">Login Name</string>
+    <string name="url">URL</string>
+    <string name="login_name">Login Name</string>
+    <string name="password_pref">Password</string>
+    <string name="password">Password</string>
+    <string name="background_color_pref">background_color</string>
+    <string name="background_color">Background Color</string>
+    <string name="backgroundcolor_summary">Change Background Color</string>
+    <string name="listview_item_date">date</string>
+    <string name="listview_item_reviewer">reviewer</string>
+    <string name="listview_item_category">category</string>
+    <string name="listview_item_nominee">nominee</string>
+    <string name="listview_item_review">review</string>
+    <string name="posted_title">"POSTED:"</string>
+    <string name="reviewer_title">REVIEWER:</string>
+    <string name="category_title">CATEGORY:</string>
+    <string name="nominee_title">NOMINEE:</string>
+    <string name="reviewdata_title">"REVIEW:"</string>
+    <string name="prefs_reset_menu_title">Reset</string>
+    <string name="ULR_default">http://www.youcode.ca/Lab01Servlet</string>
+    <string name="backgourd_color_default">#ffffff</string>
+    <string name="enter_url">Please enter the server URL</string>
+    <string name="transfer_category">category</string>
+    <string name="need_choose_category">You need to choose a category first</string>
+    <string name="warning_need_reviewer">Please enter the reviewer on setting page</string>
+    <string name="warning_need_category">Please choose the category</string>
+    <string name="warning_need_nominee">Please enter the nominee</string>
+    <string name="warning_need_review">Please enter the review</string>
+    <string name="warning_need_password">Please enter the password on setting page</string>
+    <string name="success_fetch_data">success fetching data</string>
+    <string name="warning_failure_post_data">failure to post data, check your URL or reset setting</string>
+    <string name="warning_post_failure">failure to post data</string>
+    <string name="error_url_illeagal">Your URL is illegal, try set a right URL or Reset Setting.</string>
+    <string name="warning_password_wrong">Your password is not right, try again.</string>
+    <string name="wrong_data_content">Error:Wrong Data content, please try again</string>
+    <string name="error_no_data">Can not get the data, please check your URL or reset Setting</string>
+    <string name="error_call_service_fail">Error calling web service, please try again</string>
+    <string name="error_illeagle_url_review">Your URL is illegal, please check your URL or reset Setting.</string>
+</resources>

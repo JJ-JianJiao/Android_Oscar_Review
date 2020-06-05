@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="radio_button_display">
+        <item name="best_picture">Best Picture</item>
+        <item name="best_actor">Best Actor</item>
+        <item name="best_actress">Best Actress</item>
+        <item name="film_editing">Film Editing</item>
+        <item name="visual_effects">Visual Effects</item>
+    </string-array>
+    <string-array name="radio_button_values">
+        <item name="best_picture">film</item>
+        <item name="best_actor">actor</item>
+        <item name="best_actress">actress</item>
+        <item name="film_editing">editing</item>
+        <item name="visual_effects">effects</item>
+    </string-array>
+
+    <string-array name="color_options">
+        <item>White</item>
+        <item>Darker Gray</item>
+        <item>Blue Bright</item>
+        <item>Blue Dark</item>
+        <item>Blue Light</item>
+        <item>Green Dark</item>
+        <item>Green Light</item>
+        <item>Orange Dark</item>
+        <item>Orange light</item>
+        <item>Purple</item>
+        <item>Red Dark</item>
+        <item>Red Light</item>
+    </string-array>
+
+    <string-array name="color_options_values">
+        <item name="white">#ffffff</item>
+        <item name="darker_gray">#aaaaaa</item>
+        <item name="holo_blue_bright">#00ddff</item>
+        <item name="holo_blue_dark">#0099cc</item>
+        <item name="holo_blue_light">#33b5e5</item>
+        <item name="holo_green_dark">#669900</item>
+        <item name="holo_green_light">#99cc00</item>
+        <item name="holo_orange_dark">#ff8800</item>
+        <item name="holo_orange_light">#ffbb33</item>
+        <item name="holo_purple">#aa66cc</item>
+        <item name="holo_red_dark">#cc0000</item>
+        <item name="holo_red_light">#ff4444</item>
+    </string-array>
+</resources>

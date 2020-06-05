@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Settings" android:key="prefs_group">
+
+        <EditTextPreference
+            android:defaultValue="@string/ULR_default"
+            android:key="@string/url_pref"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/url"
+            android:summary="@string/enter_url"
+            app:persistent="true" />
+        <EditTextPreference
+            android:key="@string/login_name_pref"
+            android:summary="@string/enter_name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/login_name" />
+        <EditTextPreference
+            android:key="@string/password_pref"
+            android:summary="@string/enter_password"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/password" />
+
+        <ListPreference
+            android:defaultValue="@string/backgourd_color_default"
+            android:summary="@string/backgroundcolor_summary"
+            android:entries="@array/color_options"
+            android:entryValues="@array/color_options_values"
+            android:key="@string/background_color_pref"
+            android:title="@string/background_color" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
